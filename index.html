@@ -8,7 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="todo-app">
+            <div id="heading">
+                <img src="image/istockphoto-1285308242-1024x1024.jpeg" alt="" width="50px" height="40px">
+                <p>My Todo List</p>
+            </div>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="add work in list">
+                <button onclick="addTask()">+</button>
+            </div>
+            <ul id="list-container">
+                
+            </ul>
+            <div id="task-manager">
+                <p id="task-count">Total task : <span id="count">0</span></p>
+                <p id="task-completed">Completed task : <span id="completeTask">0</span></p>
+            </div>
+        </div>
+    </div>
 </body>
     <script src="script.js"></script>
 </html>
